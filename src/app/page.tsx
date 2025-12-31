@@ -184,7 +184,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section - Optimized for Mobile */}
-      <section className="relative overflow-hidden pt-16 md:pt-32 pb-12 px-3 sm:px-4 md:px-6">
+      <section className="relative overflow-hidden pt-16 md:pt-32 pb-12 px-2 sm:px-2 md:px-3">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/10 via-transparent to-purple-900/10"></div>
         <div className="absolute top-10 left-2 sm:left-4 w-32 h-32 sm:w-48 sm:h-48 bg-blue-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-10 right-2 sm:right-4 w-32 h-32 sm:w-48 sm:h-48 bg-purple-500/10 rounded-full blur-3xl"></div>
@@ -250,7 +250,7 @@ export default function HomePage() {
       </section>
 
       {/* Skills Section - Optimized for Mobile */}
-      <section className="py-8 md:py-16 px-3 sm:px-4 md:px-6">
+      <section className="py-8 md:py-16 px-2 sm:px-2 md:px-3">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 md:gap-6 lg:gap-8">
             {skills.map((skill) => (
@@ -276,7 +276,7 @@ export default function HomePage() {
       {/* Featured Projects - Optimized for Mobile */}
       <section
         id="projects"
-        className="scroll-mt-16 py-8 md:py-16 px-3 sm:px-4 md:px-6 bg-slate-900/20"
+        className="scroll-mt-16 py-8 md:py-16 px-2 sm:px-2 md:px-3 bg-slate-900/20"
       >
         <div className="container mx-auto">
           <div className="text-center mb-6 md:mb-12">
@@ -369,7 +369,7 @@ export default function HomePage() {
       {/* Blog Section - Optimized for Mobile */}
       <section
         id="blog"
-        className="scroll-mt-16 py-8 md:py-16 px-3 sm:px-4 md:px-6"
+        className="scroll-mt-16 py-8 md:py-16 px-2 sm:px-2 md:px-3"
       >
         <div className="container mx-auto">
           <div className="text-center mb-6 md:mb-12">
@@ -495,7 +495,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials Section - Optimized for Mobile */}
-      <section className="py-8 md:py-16 px-3 sm:px-4 md:px-6">
+      <section className="py-8 md:py-16 px-2 sm:px-2 md:px-3">
         <div className="container mx-auto">
           <div className="text-center mb-6 md:mb-12">
             <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-white mb-1.5 md:mb-4">
@@ -553,7 +553,7 @@ export default function HomePage() {
       </section>
 
       {/* Quick Intro - Optimized for Mobile */}
-      <section className="py-8 md:py-16 px-3 sm:px-4 md:px-6">
+      <section className="py-8 md:py-16 px-2 sm:px-2 md:px-3">
         <div className="container mx-auto text-center">
           <h2 className="mb-2 sm:mb-3 md:mb-4 text-xl sm:text-2xl md:text-4xl font-bold text-white">
             A Little About Me
@@ -577,7 +577,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section - Optimized for Mobile */}
-      <section className="py-8 md:py-16 px-3 sm:px-4 md:px-6 bg-slate-900/30">
+      <section className="py-8 md:py-16 px-2 sm:px-2 md:px-3 bg-slate-900/30">
         <div className="container mx-auto text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="mb-2 sm:mb-3 md:mb-4 text-xl sm:text-2xl font-bold text-white">
