@@ -9,93 +9,145 @@ import Link from "next/link";
 import { useState } from "react";
 
 const projects = [
-    {
-      id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce site with a custom CMS, payment integration, and a user-friendly interface. Built with performance and scalability in mind.',
-      imageUrl: 'https://picsum.photos/seed/project1/600/400',
-      imageHint: 'online store',
-      tags: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-      liveLink: '#',
-      githubLink: '#',
-      category: 'full-stack',
-      featured: true,
-      year: '2024'
-    },
-    {
-      id: 2,
-      title: 'SaaS Dashboard',
-      description: 'A complex data visualization dashboard for a SaaS product. Includes real-time updates, customizable widgets, and advanced filtering.',
-      imageUrl: 'https://picsum.photos/seed/project2/600/400',
-      imageHint: 'data dashboard',
-      tags: ['React', 'D3.js', 'WebSocket', 'Node.js', 'MongoDB'],
-      liveLink: '#',
-      githubLink: '#',
-      category: 'full-stack',
-      featured: true,
-      year: '2024'
-    },
-    {
-      id: 3,
-      title: 'Mobile Fitness App',
-      description: 'A cross-platform mobile app for tracking workouts and nutrition. Features social sharing, progress tracking, and personalized plans.',
-      imageUrl: 'https://picsum.photos/seed/project3/600/400',
-      imageHint: 'fitness app',
-      tags: ['React Native', 'Firebase', 'GraphQL', 'iOS', 'Android'],
-      liveLink: '#',
-      githubLink: '#',
-      category: 'mobile',
-      featured: true,
-      year: '2023'
-    },
-    {
-      id: 4,
-      title: 'Company Blog Platform',
-      description: 'A performant, SEO-optimized blog built with a headless CMS. Enables marketers to easily publish and manage content.',
-      imageUrl: 'https://picsum.photos/seed/project4/600/400',
-      imageHint: 'writing article',
-      tags: ['Next.js', 'Contentful', 'GraphQL', 'Vercel'],
-      liveLink: '#',
-      githubLink: '#',
-      category: 'web',
-      featured: false,
-      year: '2023'
-    },
-    {
-      id: 5,
-      title: 'AI-Powered Chatbot',
-      description: 'A customer service chatbot that integrates with a knowledge base to provide instant, accurate answers to user queries.',
-      imageUrl: 'https://picsum.photos/seed/project5/600/400',
-      imageHint: 'robot assistant',
-      tags: ['Python', 'Genkit', 'LangChain', 'React', 'Firebase'],
-      liveLink: '#',
-      githubLink: '#',
-      category: 'ai-ml',
-      featured: false,
-      year: '2023'
-    },
-     {
-      id: 6,
-      title: 'Project Management Tool',
-      description: 'A collaborative tool for teams to manage tasks, track progress, and communicate effectively, inspired by Trello.',
-      imageUrl: 'https://picsum.photos/seed/project6/600/400',
-      imageHint: 'kanban board',
-      tags: ['React', 'Node.js', 'Socket.io', 'PostgreSQL'],
-      liveLink: '#',
-      githubLink: '#',
-      category: 'web',
-      featured: false,
-      year: '2022'
-    }
+  {
+    id: 1,
+    title: "ShieldEras-Cybersecurity",
+    description:
+      "A fullstack featured e-commerce and online course management site with a custom CMS, payment integration, and a user-friendly interface. Built with performance and scalability in mind.",
+    imageUrl: "/Projects/shielderas.png",
+    imageHint: "online store",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Stripe",
+      "MongoDB",
+      "Tailwind CSS",
+      "Nodejs",
+      "ExpressJs",
+    ],
+    liveLink: "https://www.shielderas.org",
+    githubLink: "#",
+    category: "full-stack",
+    featured: true,
+    year: "2024",
+  },
+  {
+    id: 2,
+    title: "Brainy Quiz",
+    description:
+      "A complete fullstack web app that help Advance and Ordinary level students to take past CGCE questions, answer quizzes, test their IQ level and so on",
+    imageUrl: "/Projects/brainy-quizz.png",
+    imageHint: "admin dashboard",
+    tags: [
+      "nextjs",
+      "TypeScript",
+      "Firebase",
+      "Node.js",
+      "Tailwincss",
+      "Genkit",
+      "Cloudinary",
+      "render",
+      "vercel",
+    ],
+    liveLink: "https://brainy-quiz-mocha.vercel.app/",
+    githubLink: "#",
+    category: "full-stack",
+    featured: true,
+    year: "2025",
+  },
+  {
+    id: 3,
+    title: "Tic-Portal Platform",
+    description:
+      "An advance backend course management and internship management platform that help sudents and other people to have their internships online, enroll on courses with progress tracking, attendance record and so on.",
+    imageUrl: "/Projects/tic-portal.png",
+    imageHint: "Online Learning/Internship",
+    tags: ["MongoDb", "TypeScript", "ExpressJs", "NodeJs", "Render"],
+    liveLink: "https://tic-csxl.vercel.app/",
+    githubLink: "#",
+    category: "Backend",
+    featured: false,
+    year: "2025",
+  },
+  {
+    id: 4,
+    title: "CyberLab",
+    description:
+      "A platform that enable users to take cyber challenges and complete, join forums and discuss under a particular topic, chat with mentors and so on.",
+    imageUrl: "/Projects/CYBERLAB.png",
+    imageHint: "Challenge Page",
+    tags: ["Reactjs", "Vite", "tailwincss", "Vercel", "TypeScript"],
+    liveLink: "https://cyberlab-roan.vercel.app/",
+    githubLink: "#",
+    category: "web",
+    featured: true,
+    year: "2025",
+  },
+  {
+    id: 5,
+    title: "Resume Builder",
+    description:
+      "A saas platform help users to build their resumes and have different set of templates and AI analyzer",
+    imageUrl: "/Projects/resumatic.png",
+    imageHint: "resume builder",
+    tags: ["NextJs", "Tailwincss", "TypeScript", "React", "Genkit"],
+    liveLink: "https://resumatic-neon.vercel.app/",
+    githubLink: "#",
+    category: "frontend",
+    featured: false,
+    year: "2024",
+  },
+  {
+    id: 6,
+    title: "Smart Land Registry",
+    description:
+      "A platform that help the community to settle and manage land dispute by registrying their land through it, selling and buying lands, uploading land ownership documents and more...",
+    imageUrl: "/Projects/smartlandregistry.png",
+    imageHint: "Land page",
+    tags: ["NextJs", "TailwinCss", "TypeScript", "vercel"],
+    liveLink: "http://smart-land-registry.vercel.app/",
+    githubLink: "#",
+    category: "web",
+    featured: true,
+    year: "2025",
+  },
+  {
+    id: 7,
+    title: "Modern Design and Construction Enterprise",
+    description:
+      "A platform that help Modern Design and Construction EnterPrise, a construction company advertise most of their products and services online in order to gain market ",
+    imageUrl: "/Projects/moderndesign.png",
+    imageHint: "modern design",
+    tags: ["NextJs", "Tailwincss", "TypeScript", "vercel"],
+    liveLink: "https://www.moderndesignandconstuctionenterprise.info",
+    githubLink: "#",
+    category: "web",
+    featured: true,
+    year: "2025",
+  },
+  {
+    id: 8,
+    title: "Mbinglo Football",
+    description:
+      "A platform that help MbingloFC to advertise and interract with each other with features like past matches, upcomming matches, latest blog, Chat section and more...",
+    imageUrl: "/Projects/Mbinglofc.png",
+    imageHint: "Land page",
+    tags: ["Reactjs", "TailwinCss", "Vite", "Nodejs", "render", "vercel"],
+    liveLink: "https://mbiglofc.vercel.app/",
+    githubLink: "#",
+    category: "full-stack",
+    featured: true,
+    year: "2025",
+  },
 ];
 
 const categories = [
-  { id: 'all', label: 'All Projects' },
-  { id: 'featured', label: 'Featured' },
-  { id: 'full-stack', label: 'Full Stack' },
-  { id: 'web', label: 'Web' },
-  { id: 'mobile', label: 'Mobile' },
-  { id: 'ai-ml', label: 'AI/ML' },
+  { id: "all", label: "All Projects" },
+  { id: "featured", label: "Featured" },
+  { id: "full-stack", label: "Full Stack" },
+  { id: "web", label: "Web" },
+  { id: "frontend", label: "frontend" },
+  { id: "Backend", label: "Backend" },
 ];
 
 export default function ProjectsPage() {
@@ -123,7 +175,7 @@ export default function ProjectsPage() {
             <p className="text-base md:text-lg text-slate-300 max-w-3xl mx-auto mb-6">
               A curated selection of projects that showcase my technical skills, design thinking, and problem-solving abilities.
             </p>
-            
+
             {/* Stats */}
             <div className="grid grid-cols-3 gap-3 md:gap-6 max-w-2xl mx-auto mb-8">
               <div className="text-center p-3 md:p-4 rounded-xl bg-slate-800/30 border border-slate-700/50">
